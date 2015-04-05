@@ -73,3 +73,27 @@ code and repeat the last two steps as often as necessary.
 导入其实很简单，打开 Netbeans 的菜单，选择 [文件] > [新建项目]，然后选择类别为 C/C++，项目为基于现有源代码的 C/C++ 项目，如图所示：
 
 ![选择项目](images/02-02-01-netbeans.png "选择类别为 C/C++，项目为基于现有源代码的 C/C++ 项目")
+
+然后点击浏览按钮，选择我们通过 git 下载的那个文件夹：
+
+![选择选择文件夹](images/02-02-02-netbeans.png "选择 xxtea 项目所在的文件夹")
+
+最后点完成就可以了。
+
+如果你只是用 `git clone` 命令下载了那个项目，而没有执行：
+
+```
+phpize
+```
+
+或者执行了
+
+```
+phpize --clean
+```
+
+清除了生成的所有文件，那么你在刚才的界面里选择文件夹后，会看到这样的错误提示：
+
+![找不到 makefile](images/02-02-03-netbeans.png "找不到 makefile 或配置脚本")
+
+重新执行一下 `phpize` 就可以了，然后在选择目录就可以了。
