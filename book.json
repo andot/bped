@@ -1,8 +1,13 @@
 {
-  "plugins": ["disqus"],
+  "plugins": ["changyan", "disqus", "diy-introduction"],
   "pluginsConfig": {
+    "changyan": {
+      "appid": "cyrI358mE",
+      "conf": "prod_3ce1dec3ecf83391996f3fcd31d8308f"
+    },
     "disqus": {
       "shortName": "bped"
-    }
+    },
+    "introduction-text": "前言"
   }
 }
