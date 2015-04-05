@@ -1,7 +1,8 @@
 {
     "plugins": [
         "changyan",
-        "disqus"
+        "disqus",
+        "codeblock-filename"
     ],
     "pluginsConfig": {
         "changyan": {
