@@ -1,9 +1,8 @@
 {
-  "plugins": ["disqus", "gtoc", "tocstyles"],
+  "plugins": ["disqus"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "bped"
-    },
-    "tocstyles": [ "cjk-ideographic" ]
+    }
   }
 }
