@@ -54,7 +54,7 @@ code and repeat the last two steps as often as necessary.
 
 通过这些信息，我们可以了解到，它帮我们在 ext 目录下，创建了一个 xxtea 的目录，并且在其中创建了一堆文件，这些文件就是一个 PHP 扩展的基本骨架。再后面它给出了一个编辑扩展的基本步骤，大致上呢，就这么多东西。
 
-关于 ext_skel 以及它生成 config.m4 和 config.w32 这两个文件的介绍，读者可以参考官方的 [PHP 手册->PHP 核心：骇客指南->PHP 5 构建系统](http://php.net/manual/zh/internals2.buildsys.php)，其它几个文件介绍参见：[PHP 手册->PHP 核心：骇客指南->扩展的结构](http://php.net/manual/zh/internals2.structure.php)，我这里就不重复了。
+关于 ext_skel 以及它生成 config.m4 和 config.w32 这两个文件的介绍，读者可以参考官方的 [PHP 手册 — PHP 核心：骇客指南 — PHP 5 构建系统](http://php.net/manual/zh/internals2.buildsys.php)，其它几个文件介绍参见：[PHP 手册 — PHP 核心：骇客指南 — 扩展的结构](http://php.net/manual/zh/internals2.structure.php)，我这里就不重复了。
 
 虽然上面说了这么多关于 ext_skel 的内容，但在实际开发扩展时，我们可能压根就不需要 ext_skel 这个程序。
 
