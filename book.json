@@ -1,8 +1,7 @@
 {
     "plugins": [
         "changyan",
-        "disqus",
-        "diy-introduction"
+        "disqus"
     ],
     "pluginsConfig": {
         "changyan": {
@@ -11,9 +10,6 @@
         },
         "disqus": {
             "shortName": "bped"
-        },
-        "diy-introduction": {
-            "introduction-text": "前言"
         }
     }
 }
