@@ -1,13 +1,19 @@
 {
-  "plugins": ["changyan", "disqus", "diy-introduction"],
-  "pluginsConfig": {
-    "changyan": {
-      "appid": "cyrI358mE",
-      "conf": "prod_3ce1dec3ecf83391996f3fcd31d8308f"
-    },
-    "disqus": {
-      "shortName": "bped"
-    },
-    "introduction-text": "前言"
-  }
+    "plugins": [
+        "changyan",
+        "disqus",
+        "diy-introduction"
+    ],
+    "pluginsConfig": {
+        "changyan": {
+            "appid": "cyrI358mE",
+            "conf": "prod_3ce1dec3ecf83391996f3fcd31d8308f"
+        },
+        "disqus": {
+            "shortName": "bped"
+        },
+        "diy-introduction": {
+            "introduction-text": "前言"
+        }
+    }
 }
