@@ -1,0 +1,27 @@
+@import url('http://mmwebfonts.comquas.com/fonts/?font=zawgyi');
+
+.book-body p , .book-body h1,.book-body h2,.book-body h3,.book-body h4,.book-body h5,.book-body h6,.book-body div, .book-body span,  .summary , .summary li , .summary li a  {
+    font-family: "Zawgyi-One";
+}
+
+
+.book-body code, .book-body code span, .book-body pre code span {
+	font-family: Menlo, Monaco, Consolas, 'Liberation Mono', Courier, "Zawgyi-One", monospace;
+	font-size: 14pt;
+}
+
+.book-body code, .book-body code span, .book-body pre span {
+	font-family: Menlo, Monaco, Consolas, 'Liberation Mono', Courier, "Zawgyi-One", monospace;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre>code {
+	white-space: pre-wrap!important;
+	white-space: -moz-pre-wrap!important;
+	white-space: -pre-wrap!important;
+	white-space: -o-pre-wrap!important;
+	word-wrap: break-word!important;
+	/*white-space:normal!important;*/
+	text-rendering: optimizeSpeed!important;
+	font-smoothing: antialiased!important;
+	-webkit-font-smoothing: antialiased!important;
+}

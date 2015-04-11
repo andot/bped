@@ -1,8 +1,18 @@
 {
+    "styles": {
+        "website": "styles/bped.css",
+        "ebook": "styles/bped.css",
+        "pdf": "styles/bped.css",
+        "mobi": "styles/bped.css",
+        "epub": "styles/bped.css"
+    },
     "plugins": [
         "changyan",
         "disqus",
-        "codeblock-filename"
+        "include",
+        "mermaid",
+        "comscore",
+        "google_code_prettify"
     ],
     "pluginsConfig": {
         "changyan": {
