@@ -11,7 +11,6 @@
         "disqus",
         "include",
         "mermaid",
-        "comscore",
         "google_code_prettify"
     ],
     "pluginsConfig": {
