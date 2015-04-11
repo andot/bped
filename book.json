@@ -9,8 +9,6 @@
     "plugins": [
         "changyan",
         "disqus",
-        "include",
-        "mermaid",
         "google_code_prettify"
     ],
     "pluginsConfig": {
