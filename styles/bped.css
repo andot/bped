@@ -4,14 +4,17 @@
     font-family: "Zawgyi-One";
 }
 
-
 .book-body code, .book-body code span, .book-body pre code span {
 	font-family: Menlo, Monaco, Consolas, 'Liberation Mono', Courier, "Zawgyi-One", monospace;
-	font-size: 14pt;
 }
 
 .book-body code, .book-body code span, .book-body pre span {
 	font-family: Menlo, Monaco, Consolas, 'Liberation Mono', Courier, "Zawgyi-One", monospace;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre {
+	background-color: #000000;
+	color: #ffffff;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal pre>code {
@@ -24,4 +27,5 @@
 	text-rendering: optimizeSpeed!important;
 	font-smoothing: antialiased!important;
 	-webkit-font-smoothing: antialiased!important;
+	font-size: 14pt;
 }

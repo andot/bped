@@ -8,8 +8,7 @@
     },
     "plugins": [
         "changyan",
-        "disqus",
-        "google_code_prettify"
+        "disqus"
     ],
     "pluginsConfig": {
         "changyan": {
